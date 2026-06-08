@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_99789458859b15d39cec97a3187e3964 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_99789458859b15d39cec97a3187e3964" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_99789458859b15d39cec97a3187e3964 = L.map(
+                "map_99789458859b15d39cec97a3187e3964",
+                {
+                    center: [48.85931890285713, 2.2973604342857143],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_668699d446fd59b742818479e0efb120 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_668699d446fd59b742818479e0efb120.addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+            var circle_marker_543bb25343b1f9d4bf2ec8e457fe3448 = L.circleMarker(
+                [48.8618779, 2.3374139],
+                {"bubblingMouseEvents": true, "color": "#fefebd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fefebd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.83331693749932, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_37afe4cbe1d93d0a4e9192bcf961e974 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba82fe1107ed4bdb42356ff598bd380d = $(`<div id="html_ba82fe1107ed4bdb42356ff598bd380d" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75001<br>             <b>DPE Moyen:</b> 2.00 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 18.0         </div>`)[0];
+                popup_37afe4cbe1d93d0a4e9192bcf961e974.setContent(html_ba82fe1107ed4bdb42356ff598bd380d);
+            
+        
+
+        circle_marker_543bb25343b1f9d4bf2ec8e457fe3448.bindPopup(popup_37afe4cbe1d93d0a4e9192bcf961e974)
+        ;
+
+        
+    
+    
+            var circle_marker_03524dc25178199846443dbec34a9072 = L.circleMarker(
+                [48.8676828, 2.3431278],
+                {"bubblingMouseEvents": true, "color": "#f46d43", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f46d43", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.83331693749932, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_227e5c7bdfbf70159737d07d1a48eb21 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_699b73dc199b77072f37abcaff387aa2 = $(`<div id="html_699b73dc199b77072f37abcaff387aa2" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75002<br>             <b>DPE Moyen:</b> 2.60 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 18.0         </div>`)[0];
+                popup_227e5c7bdfbf70159737d07d1a48eb21.setContent(html_699b73dc199b77072f37abcaff387aa2);
+            
+        
+
+        circle_marker_03524dc25178199846443dbec34a9072.bindPopup(popup_227e5c7bdfbf70159737d07d1a48eb21)
+        ;
+
+        
+    
+    
+            var circle_marker_4bf85094e48612bade3b5ba92bb152fe = L.circleMarker(
+                [48.8626858, 2.3586866],
+                {"bubblingMouseEvents": true, "color": "#fdce7c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdce7c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.101887489959422, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_54fdb7ef77a41c297741447f29e9a0a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2047c416d9adf9af92ce18dda156b900 = $(`<div id="html_2047c416d9adf9af92ce18dda156b900" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75003<br>             <b>DPE Moyen:</b> 2.27 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 28.0         </div>`)[0];
+                popup_54fdb7ef77a41c297741447f29e9a0a5.setContent(html_2047c416d9adf9af92ce18dda156b900);
+            
+        
+
+        circle_marker_4bf85094e48612bade3b5ba92bb152fe.bindPopup(popup_54fdb7ef77a41c297741447f29e9a0a5)
+        ;
+
+        
+    
+    
+            var circle_marker_891d4b5d701702fd34726bf5cb9b7962 = L.circleMarker(
+                [48.8541478, 2.3568079],
+                {"bubblingMouseEvents": true, "color": "#e54d34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e54d34", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.774289614064447, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_0a6cd8bf3a62917d9c8e2cd84842af78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6ebf4864a23ca48783511dc3d2d2df42 = $(`<div id="html_6ebf4864a23ca48783511dc3d2d2df42" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75004<br>             <b>DPE Moyen:</b> 2.70 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 25.0         </div>`)[0];
+                popup_0a6cd8bf3a62917d9c8e2cd84842af78.setContent(html_6ebf4864a23ca48783511dc3d2d2df42);
+            
+        
+
+        circle_marker_891d4b5d701702fd34726bf5cb9b7962.bindPopup(popup_0a6cd8bf3a62917d9c8e2cd84842af78)
+        ;
+
+        
+    
+    
+            var circle_marker_4f6dc64150dbc6148a346e76cfd0dec0 = L.circleMarker(
+                [48.8454189, 2.3525824],
+                {"bubblingMouseEvents": true, "color": "#f88e52", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f88e52", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.39720770839918, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_61c4061ac291fa921e17517faf798856 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_786f8eac42589a0d7fd9f57081cb8a54 = $(`<div id="html_786f8eac42589a0d7fd9f57081cb8a54" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75005<br>             <b>DPE Moyen:</b> 2.50 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 31.0         </div>`)[0];
+                popup_61c4061ac291fa921e17517faf798856.setContent(html_786f8eac42589a0d7fd9f57081cb8a54);
+            
+        
+
+        circle_marker_4f6dc64150dbc6148a346e76cfd0dec0.bindPopup(popup_61c4061ac291fa921e17517faf798856)
+        ;
+
+        
+    
+    
+            var circle_marker_6fc6223b14e42dde78a0cc636a6cb313 = L.circleMarker(
+                [48.8493765, 2.3322544],
+                {"bubblingMouseEvents": true, "color": "#fdb466", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdb466", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.406482647787449, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_e08e908f9b9dfb702d2e6b92a14cf3bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c74616399dd4a114a1d932c7b0afd6b8 = $(`<div id="html_c74616399dd4a114a1d932c7b0afd6b8" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75006<br>             <b>DPE Moyen:</b> 2.38 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 22.0         </div>`)[0];
+                popup_e08e908f9b9dfb702d2e6b92a14cf3bf.setContent(html_c74616399dd4a114a1d932c7b0afd6b8);
+            
+        
+
+        circle_marker_6fc6223b14e42dde78a0cc636a6cb313.bindPopup(popup_e08e908f9b9dfb702d2e6b92a14cf3bf)
+        ;
+
+        
+    
+    
+            var circle_marker_013ac66c0f3bf83644b7356d1bf504bd = L.circleMarker(
+                [48.854909, 2.3128667],
+                {"bubblingMouseEvents": true, "color": "#fcac60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcac60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.489522684399441, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_a2973650c716625bf6e70f1cb82a4906 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f02bcac91813b25bb7c4ab27df966704 = $(`<div id="html_f02bcac91813b25bb7c4ab27df966704" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75007<br>             <b>DPE Moyen:</b> 2.40 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 32.0         </div>`)[0];
+                popup_a2973650c716625bf6e70f1cb82a4906.setContent(html_f02bcac91813b25bb7c4ab27df966704);
+            
+        
+
+        circle_marker_013ac66c0f3bf83644b7356d1bf504bd.bindPopup(popup_a2973650c716625bf6e70f1cb82a4906)
+        ;
+
+        
+    
+    
+            var circle_marker_ce4902a375a1fc870fba98eed4bde94a = L.circleMarker(
+                [48.8733792, 2.3111527],
+                {"bubblingMouseEvents": true, "color": "#fefebd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fefebd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.579081573848484, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_07106b50774c41a1be0ae7efee2a5ef6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b74c7384f9d155fe105a351e5cb05c7b = $(`<div id="html_b74c7384f9d155fe105a351e5cb05c7b" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75008<br>             <b>DPE Moyen:</b> 2.00 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 33.0         </div>`)[0];
+                popup_07106b50774c41a1be0ae7efee2a5ef6.setContent(html_b74c7384f9d155fe105a351e5cb05c7b);
+            
+        
+
+        circle_marker_ce4902a375a1fc870fba98eed4bde94a.bindPopup(popup_07106b50774c41a1be0ae7efee2a5ef6)
+        ;
+
+        
+    
+    
+            var circle_marker_c2867774f3ccb47e014b2275ffaecbae = L.circleMarker(
+                [48.8770673, 2.3379172],
+                {"bubblingMouseEvents": true, "color": "#f57446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f57446", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.485924189467285, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_269f4d02fa887c6a62efaef5838f13b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6f48955d39b12a3937ff8b71bce5204 = $(`<div id="html_c6f48955d39b12a3937ff8b71bce5204" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75009<br>             <b>DPE Moyen:</b> 2.57 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 45.0         </div>`)[0];
+                popup_269f4d02fa887c6a62efaef5838f13b3.setContent(html_c6f48955d39b12a3937ff8b71bce5204);
+            
+        
+
+        circle_marker_c2867774f3ccb47e014b2275ffaecbae.bindPopup(popup_269f4d02fa887c6a62efaef5838f13b3)
+        ;
+
+        
+    
+    
+            var circle_marker_ae6d59d4b9a4bc407860d8bf37db41c0 = L.circleMarker(
+                [48.8760081, 2.360445],
+                {"bubblingMouseEvents": true, "color": "#fdd884", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdd884", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.675460894331879, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_1585d388d90463ad0265a6a75af3cadd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_57c3415902532952b6cd0a013e5e000c = $(`<div id="html_57c3415902532952b6cd0a013e5e000c" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75010<br>             <b>DPE Moyen:</b> 2.23 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 48.0         </div>`)[0];
+                popup_1585d388d90463ad0265a6a75af3cadd.setContent(html_57c3415902532952b6cd0a013e5e000c);
+            
+        
+
+        circle_marker_ae6d59d4b9a4bc407860d8bf37db41c0.bindPopup(popup_1585d388d90463ad0265a6a75af3cadd)
+        ;
+
+        
+    
+    
+            var circle_marker_13f029445075539fb52b67206b3c3235 = L.circleMarker(
+                [48.8600808, 2.3781399],
+                {"bubblingMouseEvents": true, "color": "#fee18d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee18d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.29245039652994, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_02383c784026c92174c238a94822dafa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f50f5f337ba7dd97d1991796b73e24de = $(`<div id="html_f50f5f337ba7dd97d1991796b73e24de" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75011<br>             <b>DPE Moyen:</b> 2.20 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 83.0         </div>`)[0];
+                popup_02383c784026c92174c238a94822dafa.setContent(html_f50f5f337ba7dd97d1991796b73e24de);
+            
+        
+
+        circle_marker_13f029445075539fb52b67206b3c3235.bindPopup(popup_02383c784026c92174c238a94822dafa)
+        ;
+
+        
+    
+    
+            var circle_marker_9f7193d03eb14ccc51df51c14a08c309 = L.circleMarker(
+                [48.8352002, 2.4451359],
+                {"bubblingMouseEvents": true, "color": "#fdde89", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdde89", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.658523115528322, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_e2fc81e36b821b9360049a82280e78e4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0b1aec4b7c1bd6a4651c4bbb0338ad2c = $(`<div id="html_0b1aec4b7c1bd6a4651c4bbb0338ad2c" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75012<br>             <b>DPE Moyen:</b> 2.21 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 67.0         </div>`)[0];
+                popup_e2fc81e36b821b9360049a82280e78e4.setContent(html_0b1aec4b7c1bd6a4651c4bbb0338ad2c);
+            
+        
+
+        circle_marker_9f7193d03eb14ccc51df51c14a08c309.bindPopup(popup_e2fc81e36b821b9360049a82280e78e4)
+        ;
+
+        
+    
+    
+            var circle_marker_83eab23bf7dc5672b75c130c80eaf04b = L.circleMarker(
+                [48.829853, 2.363026],
+                {"bubblingMouseEvents": true, "color": "#feeea3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feeea3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.658523115528322, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_b529d8b0643d0f0c30f499b3ce18f1b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a4d3f88321cfb877006e12c2ba61dac = $(`<div id="html_0a4d3f88321cfb877006e12c2ba61dac" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75013<br>             <b>DPE Moyen:</b> 2.11 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 67.0         </div>`)[0];
+                popup_b529d8b0643d0f0c30f499b3ce18f1b9.setContent(html_0a4d3f88321cfb877006e12c2ba61dac);
+            
+        
+
+        circle_marker_83eab23bf7dc5672b75c130c80eaf04b.bindPopup(popup_b529d8b0643d0f0c30f499b3ce18f1b9)
+        ;
+
+        
+    
+    
+            var circle_marker_f36a95f29dbaa24a75b9167ef65f5adc = L.circleMarker(
+                [48.8295667, 2.3239625],
+                {"bubblingMouseEvents": true, "color": "#fdcc7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdcc7a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.788039631123947, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_da6a711b874718ea46ff606683200f6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36908130ce9f4785c2dcb4b9ab41183a = $(`<div id="html_36908130ce9f4785c2dcb4b9ab41183a" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75014<br>             <b>DPE Moyen:</b> 2.28 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 70.0         </div>`)[0];
+                popup_da6a711b874718ea46ff606683200f6a.setContent(html_36908130ce9f4785c2dcb4b9ab41183a);
+            
+        
+
+        circle_marker_f36a95f29dbaa24a75b9167ef65f5adc.bindPopup(popup_da6a711b874718ea46ff606683200f6a)
+        ;
+
+        
+    
+    
+            var circle_marker_e7c4038608f25288c2fac6fcc61d47fe = L.circleMarker(
+                [48.8414302, 2.2961649],
+                {"bubblingMouseEvents": true, "color": "#fdba6b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdba6b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.484941211906904, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_3a0b2ef61eea6d350717d5cdbe923b6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_faae57ef3a9a84769c3084b452e61e9c = $(`<div id="html_faae57ef3a9a84769c3084b452e61e9c" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75015<br>             <b>DPE Moyen:</b> 2.35 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 124.0         </div>`)[0];
+                popup_3a0b2ef61eea6d350717d5cdbe923b6a.setContent(html_faae57ef3a9a84769c3084b452e61e9c);
+            
+        
+
+        circle_marker_e7c4038608f25288c2fac6fcc61d47fe.bindPopup(popup_3a0b2ef61eea6d350717d5cdbe923b6a)
+        ;
+
+        
+    
+    
+            var circle_marker_ba6abd743c5d098361659d294192fdb1 = L.circleMarker(
+                [48.854928, 2.2553299],
+                {"bubblingMouseEvents": true, "color": "#fdc473", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdc473", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.183347464017316, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_e9d2d721a2d5e16c493f34aeb9b3fe80 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6dd7e879ec6c5e8c624794e362d050a5 = $(`<div id="html_6dd7e879ec6c5e8c624794e362d050a5" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75016<br>             <b>DPE Moyen:</b> 2.31 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 80.0         </div>`)[0];
+                popup_e9d2d721a2d5e16c493f34aeb9b3fe80.setContent(html_6dd7e879ec6c5e8c624794e362d050a5);
+            
+        
+
+        circle_marker_ba6abd743c5d098361659d294192fdb1.bindPopup(popup_e9d2d721a2d5e16c493f34aeb9b3fe80)
+        ;
+
+        
+    
+    
+            var circle_marker_d1497f442958a572941df398efd4c57d = L.circleMarker(
+                [48.8873906, 2.3064833],
+                {"bubblingMouseEvents": true, "color": "#fb9f5a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fb9f5a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.693044574403508, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_510fc8c4f3f77f838642af43cbc03a12 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b39ce3339b2700966f328f8f6e8f2a80 = $(`<div id="html_b39ce3339b2700966f328f8f6e8f2a80" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75017<br>             <b>DPE Moyen:</b> 2.44 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 95.0         </div>`)[0];
+                popup_510fc8c4f3f77f838642af43cbc03a12.setContent(html_b39ce3339b2700966f328f8f6e8f2a80);
+            
+        
+
+        circle_marker_d1497f442958a572941df398efd4c57d.bindPopup(popup_510fc8c4f3f77f838642af43cbc03a12)
+        ;
+
+        
+    
+    
+            var circle_marker_6a913fb0b7d4669a489f7470bb0e8b1c = L.circleMarker(
+                [48.8916223, 2.3479768],
+                {"bubblingMouseEvents": true, "color": "#f88e52", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f88e52", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.693519399852732, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_1380c489fffee19f0dedbfb1187995f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_795ebe59ec8c5bc1a97b39bd745a60e1 = $(`<div id="html_795ebe59ec8c5bc1a97b39bd745a60e1" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75018<br>             <b>DPE Moyen:</b> 2.49 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 133.0         </div>`)[0];
+                popup_1380c489fffee19f0dedbfb1187995f9.setContent(html_795ebe59ec8c5bc1a97b39bd745a60e1);
+            
+        
+
+        circle_marker_6a913fb0b7d4669a489f7470bb0e8b1c.bindPopup(popup_1380c489fffee19f0dedbfb1187995f9)
+        ;
+
+        
+    
+    
+            var circle_marker_cde83c2cabe5b5bb75bb7cf923f072f9 = L.circleMarker(
+                [48.8869876, 2.3830496],
+                {"bubblingMouseEvents": true, "color": "#feea9d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feea9d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.499429010990795, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_34174309e7619554b4f8b6fef32ce6c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f6e10e037967e39e5a2c42ab579f44f2 = $(`<div id="html_f6e10e037967e39e5a2c42ab579f44f2" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75019<br>             <b>DPE Moyen:</b> 2.13 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 89.0         </div>`)[0];
+                popup_34174309e7619554b4f8b6fef32ce6c4.setContent(html_f6e10e037967e39e5a2c42ab579f44f2);
+            
+        
+
+        circle_marker_cde83c2cabe5b5bb75bb7cf923f072f9.bindPopup(popup_34174309e7619554b4f8b6fef32ce6c4)
+        ;
+
+        
+    
+    
+            var circle_marker_1eda1a11c9c1f244b978a783b6bd133a = L.circleMarker(
+                [48.8618219, 2.4010758],
+                {"bubblingMouseEvents": true, "color": "#fef7b1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fef7b1", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.829998357048165, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_a65107d26f9325b1661f8cac9a185aaf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9dd0fda3ba468771ba0e496aeded75d = $(`<div id="html_e9dd0fda3ba468771ba0e496aeded75d" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75020<br>             <b>DPE Moyen:</b> 2.05 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 71.0         </div>`)[0];
+                popup_a65107d26f9325b1661f8cac9a185aaf.setContent(html_e9dd0fda3ba468771ba0e496aeded75d);
+            
+        
+
+        circle_marker_1eda1a11c9c1f244b978a783b6bd133a.bindPopup(popup_a65107d26f9325b1661f8cac9a185aaf)
+        ;
+
+        
+    
+    
+            var circle_marker_dff3b90f416befa24fa8cb2023d71dc9 = L.circleMarker(
+                [48.8690634, 2.279847],
+                {"bubblingMouseEvents": true, "color": "#a50026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50026", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_255d84d23ea6337fcdb6b44941b6a076 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3e9b3d141506163e242ba94047b298c = $(`<div id="html_f3e9b3d141506163e242ba94047b298c" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75116<br>             <b>DPE Moyen:</b> 3.00 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_255d84d23ea6337fcdb6b44941b6a076.setContent(html_f3e9b3d141506163e242ba94047b298c);
+            
+        
+
+        circle_marker_dff3b90f416befa24fa8cb2023d71dc9.bindPopup(popup_255d84d23ea6337fcdb6b44941b6a076)
+        ;
+
+        
+    
+    
+            var circle_marker_10d8b4d99f14203d93b22570b7aab52b = L.circleMarker(
+                [49.4454004, 1.0938965],
+                {"bubblingMouseEvents": true, "color": "#fefebd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fefebd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_681d0eed1f63836c79106fc9fca833bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ebb5742ee889129169d8b5b77b89f984 = $(`<div id="html_ebb5742ee889129169d8b5b77b89f984" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 76000<br>             <b>DPE Moyen:</b> 2.00 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_681d0eed1f63836c79106fc9fca833bf.setContent(html_ebb5742ee889129169d8b5b77b89f984);
+            
+        
+
+        circle_marker_10d8b4d99f14203d93b22570b7aab52b.bindPopup(popup_681d0eed1f63836c79106fc9fca833bf)
+        ;
+
+        
+    
+    
+            var circle_marker_0f67e763e1073dbe93a867aa89e5c295 = L.circleMarker(
+                [48.523948, 2.6888745],
+                {"bubblingMouseEvents": true, "color": "#f0f9ab", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f0f9ab", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.824927267827912, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_8fabf19f7246fe6f5b2484266e8d0087 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ed5f0b626af6b6370f0288ff28ab413 = $(`<div id="html_1ed5f0b626af6b6370f0288ff28ab413" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 77000<br>             <b>DPE Moyen:</b> 1.92 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 139.0         </div>`)[0];
+                popup_8fabf19f7246fe6f5b2484266e8d0087.setContent(html_1ed5f0b626af6b6370f0288ff28ab413);
+            
+        
+
+        circle_marker_0f67e763e1073dbe93a867aa89e5c295.bindPopup(popup_8fabf19f7246fe6f5b2484266e8d0087)
+        ;
+
+        
+    
+    
+            var circle_marker_4fd10c3e6589268d5c44c71e2300ef88 = L.circleMarker(
+                [48.8037121, 2.119426],
+                {"bubblingMouseEvents": true, "color": "#fef4ad", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fef4ad", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.32795376947095, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_12b88b03792700bc799954412e601152 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63b96b5432ee7a53299a9e2dcd3abd7f = $(`<div id="html_63b96b5432ee7a53299a9e2dcd3abd7f" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 78000<br>             <b>DPE Moyen:</b> 2.07 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 84.0         </div>`)[0];
+                popup_12b88b03792700bc799954412e601152.setContent(html_63b96b5432ee7a53299a9e2dcd3abd7f);
+            
+        
+
+        circle_marker_4fd10c3e6589268d5c44c71e2300ef88.bindPopup(popup_12b88b03792700bc799954412e601152)
+        ;
+
+        
+    
+    
+            var circle_marker_c8da0b874b02717909e5bea4cf1c2783 = L.circleMarker(
+                [48.7154856, 2.2290618],
+                {"bubblingMouseEvents": true, "color": "#fef2a9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fef2a9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.381403155135274, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_f222a1a241e1b2826e574415c76d3003 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ca5fca3d9cac7db92c2e8a1e125b5269 = $(`<div id="html_ca5fca3d9cac7db92c2e8a1e125b5269" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 91120<br>             <b>DPE Moyen:</b> 2.08 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 61.0         </div>`)[0];
+                popup_f222a1a241e1b2826e574415c76d3003.setContent(html_ca5fca3d9cac7db92c2e8a1e125b5269);
+            
+        
+
+        circle_marker_c8da0b874b02717909e5bea4cf1c2783.bindPopup(popup_f222a1a241e1b2826e574415c76d3003)
+        ;
+
+        
+    
+    
+            var circle_marker_b5ddd696be48f8f3825d67dc79a0a405 = L.circleMarker(
+                [48.8927825, 2.2073652],
+                {"bubblingMouseEvents": true, "color": "#ecf7a5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf7a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.568964226079276, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_2e8f71211570b5a332651ddabd8a4937 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d44911cf4edf2d27d0c86732ff286b3 = $(`<div id="html_0d44911cf4edf2d27d0c86732ff286b3" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92000<br>             <b>DPE Moyen:</b> 1.90 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 65.0         </div>`)[0];
+                popup_2e8f71211570b5a332651ddabd8a4937.setContent(html_0d44911cf4edf2d27d0c86732ff286b3);
+            
+        
+
+        circle_marker_b5ddd696be48f8f3825d67dc79a0a405.bindPopup(popup_2e8f71211570b5a332651ddabd8a4937)
+        ;
+
+        
+    
+    
+            var circle_marker_188d38b335ff545fc3d3dffdada31e4f = L.circleMarker(
+                [48.837494, 2.2378546],
+                {"bubblingMouseEvents": true, "color": "#f8fcb5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f8fcb5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.96188105047257, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_c57b3078e794211729ee32d4ca5d9b4a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_691938cdb4d65a22ce832b03bac56154 = $(`<div id="html_691938cdb4d65a22ce832b03bac56154" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92100<br>             <b>DPE Moyen:</b> 1.96 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 104.0         </div>`)[0];
+                popup_c57b3078e794211729ee32d4ca5d9b4a.setContent(html_691938cdb4d65a22ce832b03bac56154);
+            
+        
+
+        circle_marker_188d38b335ff545fc3d3dffdada31e4f.bindPopup(popup_c57b3078e794211729ee32d4ca5d9b4a)
+        ;
+
+        
+    
+    
+            var circle_marker_3e475d9360e0a995464b6833344d0a07 = L.circleMarker(
+                [48.8711349, 2.2217833],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_add901c4edd7e38cfc2fed3cea1f88f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01220305c705b6ba24081362ad3a5333 = $(`<div id="html_01220305c705b6ba24081362ad3a5333" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92150<br>             <b>DPE Moyen:</b> nan '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_add901c4edd7e38cfc2fed3cea1f88f9.setContent(html_01220305c705b6ba24081362ad3a5333);
+            
+        
+
+        circle_marker_3e475d9360e0a995464b6833344d0a07.bindPopup(popup_add901c4edd7e38cfc2fed3cea1f88f9)
+        ;
+
+        
+    
+    
+            var circle_marker_b23900068d22cc82a91288751d7f94dd = L.circleMarker(
+                [48.7908946, 2.2867846],
+                {"bubblingMouseEvents": true, "color": "#fefebd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fefebd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_566ef404b0335b8d7478b773c270e9dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa4212962b7cb7d29926f9a013b91d55 = $(`<div id="html_aa4212962b7cb7d29926f9a013b91d55" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92260<br>             <b>DPE Moyen:</b> 2.00 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_566ef404b0335b8d7478b773c270e9dc.setContent(html_aa4212962b7cb7d29926f9a013b91d55);
+            
+        
+
+        circle_marker_b23900068d22cc82a91288751d7f94dd.bindPopup(popup_566ef404b0335b8d7478b773c270e9dc)
+        ;
+
+        
+    
+    
+            var circle_marker_bb58a5151573bd155bc2114775eca02a = L.circleMarker(
+                [48.8718031, 2.1801931],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_8e25851b6ffeeec3d329d3a8f6b4678c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_03d040ef4c241e0d4af1c8481029de76 = $(`<div id="html_03d040ef4c241e0d4af1c8481029de76" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92500<br>             <b>DPE Moyen:</b> 1.00 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_8e25851b6ffeeec3d329d3a8f6b4678c.setContent(html_03d040ef4c241e0d4af1c8481029de76);
+            
+        
+
+        circle_marker_bb58a5151573bd155bc2114775eca02a.bindPopup(popup_8e25851b6ffeeec3d329d3a8f6b4678c)
+        ;
+
+        
+    
+    
+            var circle_marker_d2ef67a395557d9e00bc37f73ea37060 = L.circleMarker(
+                [48.9334215, 2.3624387],
+                {"bubblingMouseEvents": true, "color": "#fefbb9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fefbb9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.181329031639258, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_c61f82e49807d63aba90c89262bd6f85 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8f585c13f8e48b9a24e90fbba7c8d18a = $(`<div id="html_8f585c13f8e48b9a24e90fbba7c8d18a" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 93200<br>             <b>DPE Moyen:</b> 2.02 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 57.0         </div>`)[0];
+                popup_c61f82e49807d63aba90c89262bd6f85.setContent(html_8f585c13f8e48b9a24e90fbba7c8d18a);
+            
+        
+
+        circle_marker_d2ef67a395557d9e00bc37f73ea37060.bindPopup(popup_c61f82e49807d63aba90c89262bd6f85)
+        ;
+
+        
+    
+    
+            var circle_marker_3dcea186838cac14ecff1bc651878940 = L.circleMarker(
+                [48.7901585, 2.4589],
+                {"bubblingMouseEvents": true, "color": "#fcfebb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfebb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.693044574403508, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_cebc64e1c6fe7a64141097435d4f5bfb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b90c194331bc10cb773e1a633356c2e = $(`<div id="html_8b90c194331bc10cb773e1a633356c2e" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 94000<br>             <b>DPE Moyen:</b> 1.99 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 95.0         </div>`)[0];
+                popup_cebc64e1c6fe7a64141097435d4f5bfb.setContent(html_8b90c194331bc10cb773e1a633356c2e);
+            
+        
+
+        circle_marker_3dcea186838cac14ecff1bc651878940.bindPopup(popup_cebc64e1c6fe7a64141097435d4f5bfb)
+        ;
+
+        
+    
+    
+            var circle_marker_c7a6a666f1160f334a93b45633fca761 = L.circleMarker(
+                [48.7695068, 2.4869964],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_bf55d612dcb86cabd359051c3740b0d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24ca236470fbf699bb5b6b09b0344365 = $(`<div id="html_24ca236470fbf699bb5b6b09b0344365" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 94380<br>             <b>DPE Moyen:</b> nan '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_bf55d612dcb86cabd359051c3740b0d9.setContent(html_24ca236470fbf699bb5b6b09b0344365);
+            
+        
+
+        circle_marker_c7a6a666f1160f334a93b45633fca761.bindPopup(popup_bf55d612dcb86cabd359051c3740b0d9)
+        ;
+
+        
+    
+    
+            var circle_marker_9e23ddeb0f9db29610b2f498ec9186e4 = L.circleMarker(
+                [48.7919396, 2.3652584],
+                {"bubblingMouseEvents": true, "color": "#fee695", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee695", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.675460894331879, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_4c1537d7c4f489126e1301413c04a213 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a12de8cba76d7f728bdd3d1a1891d8a = $(`<div id="html_2a12de8cba76d7f728bdd3d1a1891d8a" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 94800<br>             <b>DPE Moyen:</b> 2.16 '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 48.0         </div>`)[0];
+                popup_4c1537d7c4f489126e1301413c04a213.setContent(html_2a12de8cba76d7f728bdd3d1a1891d8a);
+            
+        
+
+        circle_marker_9e23ddeb0f9db29610b2f498ec9186e4.bindPopup(popup_4c1537d7c4f489126e1301413c04a213)
+        ;
+
+        
+    
+    
+            var circle_marker_6f58c4e9ef1d1c1f10ac6e941d70b50f = L.circleMarker(
+                [48.967982, 2.2853359],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_99789458859b15d39cec97a3187e3964);
+        
+    
+        var popup_4d66d28081f7c138af670e70a4d28e22 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ae142d32f4ecae298d70fb886caaef8 = $(`<div id="html_3ae142d32f4ecae298d70fb886caaef8" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 95210<br>             <b>DPE Moyen:</b> nan '(1 = Bon | 2 = Moyen | 3 = Mauvais)'<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_4d66d28081f7c138af670e70a4d28e22.setContent(html_3ae142d32f4ecae298d70fb886caaef8);
+            
+        
+
+        circle_marker_6f58c4e9ef1d1c1f10ac6e941d70b50f.bindPopup(popup_4d66d28081f7c138af670e70a4d28e22)
+        ;
+
+        
+    
+</script>
+</html>

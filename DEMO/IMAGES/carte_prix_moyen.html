@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08 = L.map(
+                "map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08",
+                {
+                    center: [48.85931890285713, 2.2973604342857143],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b738a45a4d4b8bd83099d489f8963b24 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b738a45a4d4b8bd83099d489f8963b24.addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+            var circle_marker_2724af9e8d1c8e38a6d5669e0619bd3d = L.circleMarker(
+                [48.8618779, 2.3374139],
+                {"bubblingMouseEvents": true, "color": "#9511a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9511a1", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.83331693749932, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_6fcf213c9feb7f8892940a6aa85fa86e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_789263e4a009a9e4da446fb087765ead = $(`<div id="html_789263e4a009a9e4da446fb087765ead" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75001<br>             <b>Prix Moyen:</b> 6164 €/m²<br>             <b>Nb Biens:</b> 18.0         </div>`)[0];
+                popup_6fcf213c9feb7f8892940a6aa85fa86e.setContent(html_789263e4a009a9e4da446fb087765ead);
+            
+        
+
+        circle_marker_2724af9e8d1c8e38a6d5669e0619bd3d.bindPopup(popup_6fcf213c9feb7f8892940a6aa85fa86e)
+        ;
+
+        
+    
+    
+            var circle_marker_f4da2d8cae80dd4f645c9b64ef828ad4 = L.circleMarker(
+                [48.8676828, 2.3431278],
+                {"bubblingMouseEvents": true, "color": "#bc3685", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bc3685", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.83331693749932, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_b7ca4a2864b0dc8c25dc3f13618535df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90e68a8debf0efcea4be94df6a47f54f = $(`<div id="html_90e68a8debf0efcea4be94df6a47f54f" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75002<br>             <b>Prix Moyen:</b> 8667 €/m²<br>             <b>Nb Biens:</b> 18.0         </div>`)[0];
+                popup_b7ca4a2864b0dc8c25dc3f13618535df.setContent(html_90e68a8debf0efcea4be94df6a47f54f);
+            
+        
+
+        circle_marker_f4da2d8cae80dd4f645c9b64ef828ad4.bindPopup(popup_b7ca4a2864b0dc8c25dc3f13618535df)
+        ;
+
+        
+    
+    
+            var circle_marker_2f3edf0e17fb3684ddc851eb8ee9b2f9 = L.circleMarker(
+                [48.8626858, 2.3586866],
+                {"bubblingMouseEvents": true, "color": "#c7427b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c7427b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.101887489959422, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_f79f0d9ef3a8eda57d1d4442c4009995 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_293a032df483a50551622595e21cf278 = $(`<div id="html_293a032df483a50551622595e21cf278" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75003<br>             <b>Prix Moyen:</b> 9488 €/m²<br>             <b>Nb Biens:</b> 28.0         </div>`)[0];
+                popup_f79f0d9ef3a8eda57d1d4442c4009995.setContent(html_293a032df483a50551622595e21cf278);
+            
+        
+
+        circle_marker_2f3edf0e17fb3684ddc851eb8ee9b2f9.bindPopup(popup_f79f0d9ef3a8eda57d1d4442c4009995)
+        ;
+
+        
+    
+    
+            var circle_marker_ad83bd35ff0500a7b1e1f8102616404c = L.circleMarker(
+                [48.8541478, 2.3568079],
+                {"bubblingMouseEvents": true, "color": "#d7566c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7566c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.774289614064447, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_a78b95d87cb8f44eb0fffafa1ee69729 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43597b63c5eba6a7155e1c994f678abc = $(`<div id="html_43597b63c5eba6a7155e1c994f678abc" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75004<br>             <b>Prix Moyen:</b> 10828 €/m²<br>             <b>Nb Biens:</b> 25.0         </div>`)[0];
+                popup_a78b95d87cb8f44eb0fffafa1ee69729.setContent(html_43597b63c5eba6a7155e1c994f678abc);
+            
+        
+
+        circle_marker_ad83bd35ff0500a7b1e1f8102616404c.bindPopup(popup_a78b95d87cb8f44eb0fffafa1ee69729)
+        ;
+
+        
+    
+    
+            var circle_marker_968c968f02166296f191a89c18b64ad4 = L.circleMarker(
+                [48.8454189, 2.3525824],
+                {"bubblingMouseEvents": true, "color": "#bb3586", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bb3586", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.39720770839918, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_c9db0a057fc1a2bf550ec297c92113c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f0a82b0238a2592afd61e9f690d165b = $(`<div id="html_6f0a82b0238a2592afd61e9f690d165b" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75005<br>             <b>Prix Moyen:</b> 8603 €/m²<br>             <b>Nb Biens:</b> 31.0         </div>`)[0];
+                popup_c9db0a057fc1a2bf550ec297c92113c6.setContent(html_6f0a82b0238a2592afd61e9f690d165b);
+            
+        
+
+        circle_marker_968c968f02166296f191a89c18b64ad4.bindPopup(popup_c9db0a057fc1a2bf550ec297c92113c6)
+        ;
+
+        
+    
+    
+            var circle_marker_31f5ad15e96340205da24760d8de9124 = L.circleMarker(
+                [48.8493765, 2.3322544],
+                {"bubblingMouseEvents": true, "color": "#df6163", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#df6163", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.406482647787449, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_237ca971fe8bd3a4dc4d6afeff9e644a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e49807b422a209494de89b2487bc0b19 = $(`<div id="html_e49807b422a209494de89b2487bc0b19" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75006<br>             <b>Prix Moyen:</b> 11561 €/m²<br>             <b>Nb Biens:</b> 22.0         </div>`)[0];
+                popup_237ca971fe8bd3a4dc4d6afeff9e644a.setContent(html_e49807b422a209494de89b2487bc0b19);
+            
+        
+
+        circle_marker_31f5ad15e96340205da24760d8de9124.bindPopup(popup_237ca971fe8bd3a4dc4d6afeff9e644a)
+        ;
+
+        
+    
+    
+            var circle_marker_ea339710e605fb18811b812e21fcc7d7 = L.circleMarker(
+                [48.854909, 2.3128667],
+                {"bubblingMouseEvents": true, "color": "#df6262", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#df6262", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.489522684399441, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_c91d8233f3b3128dfec4984ca84d6846 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cccd3a5a7087d90f172d4f53d3a1b02e = $(`<div id="html_cccd3a5a7087d90f172d4f53d3a1b02e" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75007<br>             <b>Prix Moyen:</b> 11692 €/m²<br>             <b>Nb Biens:</b> 32.0         </div>`)[0];
+                popup_c91d8233f3b3128dfec4984ca84d6846.setContent(html_cccd3a5a7087d90f172d4f53d3a1b02e);
+            
+        
+
+        circle_marker_ea339710e605fb18811b812e21fcc7d7.bindPopup(popup_c91d8233f3b3128dfec4984ca84d6846)
+        ;
+
+        
+    
+    
+            var circle_marker_a2d6290e43b834557f137eb32ffcdc12 = L.circleMarker(
+                [48.8733792, 2.3111527],
+                {"bubblingMouseEvents": true, "color": "#d14e72", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d14e72", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.579081573848484, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_d60c47d4dbc23c44ff81dd6e75e5ca2e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_075fbc72de79841fb6dc0e2101540e10 = $(`<div id="html_075fbc72de79841fb6dc0e2101540e10" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75008<br>             <b>Prix Moyen:</b> 10267 €/m²<br>             <b>Nb Biens:</b> 33.0         </div>`)[0];
+                popup_d60c47d4dbc23c44ff81dd6e75e5ca2e.setContent(html_075fbc72de79841fb6dc0e2101540e10);
+            
+        
+
+        circle_marker_a2d6290e43b834557f137eb32ffcdc12.bindPopup(popup_d60c47d4dbc23c44ff81dd6e75e5ca2e)
+        ;
+
+        
+    
+    
+            var circle_marker_29222d92509a4f468c0a060d1fc99c15 = L.circleMarker(
+                [48.8770673, 2.3379172],
+                {"bubblingMouseEvents": true, "color": "#ae2791", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ae2791", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.485924189467285, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_264979824437cb3442051633060aca74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2b0d9473caf6226c2d70419b46864a39 = $(`<div id="html_2b0d9473caf6226c2d70419b46864a39" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75009<br>             <b>Prix Moyen:</b> 7658 €/m²<br>             <b>Nb Biens:</b> 45.0         </div>`)[0];
+                popup_264979824437cb3442051633060aca74.setContent(html_2b0d9473caf6226c2d70419b46864a39);
+            
+        
+
+        circle_marker_29222d92509a4f468c0a060d1fc99c15.bindPopup(popup_264979824437cb3442051633060aca74)
+        ;
+
+        
+    
+    
+            var circle_marker_2f18670576aef0ba1e48a1dab93124cd = L.circleMarker(
+                [48.8760081, 2.360445],
+                {"bubblingMouseEvents": true, "color": "#b22c8e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b22c8e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.675460894331879, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_db5746d436983ed26ccd623934b4961d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5be7f2a57d2ce6f93ae1737fd3949cc1 = $(`<div id="html_5be7f2a57d2ce6f93ae1737fd3949cc1" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75010<br>             <b>Prix Moyen:</b> 7969 €/m²<br>             <b>Nb Biens:</b> 48.0         </div>`)[0];
+                popup_db5746d436983ed26ccd623934b4961d.setContent(html_5be7f2a57d2ce6f93ae1737fd3949cc1);
+            
+        
+
+        circle_marker_2f18670576aef0ba1e48a1dab93124cd.bindPopup(popup_db5746d436983ed26ccd623934b4961d)
+        ;
+
+        
+    
+    
+            var circle_marker_0215dd5324e9ff48dfeca966cbee54cd = L.circleMarker(
+                [48.8600808, 2.3781399],
+                {"bubblingMouseEvents": true, "color": "#b12b8f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b12b8f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.29245039652994, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_41a589ee721d78485a712a660d209816 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f04478004c2e50e615471a34e3b0f009 = $(`<div id="html_f04478004c2e50e615471a34e3b0f009" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75011<br>             <b>Prix Moyen:</b> 7942 €/m²<br>             <b>Nb Biens:</b> 83.0         </div>`)[0];
+                popup_41a589ee721d78485a712a660d209816.setContent(html_f04478004c2e50e615471a34e3b0f009);
+            
+        
+
+        circle_marker_0215dd5324e9ff48dfeca966cbee54cd.bindPopup(popup_41a589ee721d78485a712a660d209816)
+        ;
+
+        
+    
+    
+            var circle_marker_f6b9938fb4842637cf38d071b04cb2ce = L.circleMarker(
+                [48.8352002, 2.4451359],
+                {"bubblingMouseEvents": true, "color": "#c13c80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c13c80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.658523115528322, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_9a8cad960344c1b99c91a9fb450028e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_79a652dd976840c2639e2a4a66ab0c5f = $(`<div id="html_79a652dd976840c2639e2a4a66ab0c5f" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75012<br>             <b>Prix Moyen:</b> 9061 €/m²<br>             <b>Nb Biens:</b> 67.0         </div>`)[0];
+                popup_9a8cad960344c1b99c91a9fb450028e5.setContent(html_79a652dd976840c2639e2a4a66ab0c5f);
+            
+        
+
+        circle_marker_f6b9938fb4842637cf38d071b04cb2ce.bindPopup(popup_9a8cad960344c1b99c91a9fb450028e5)
+        ;
+
+        
+    
+    
+            var circle_marker_6970c1801bfc9740b5d7ba3ce60e919a = L.circleMarker(
+                [48.829853, 2.363026],
+                {"bubblingMouseEvents": true, "color": "#ac2593", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ac2593", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.658523115528322, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_f9d526f6530bee68e34bccf0236d1df1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e49ac73cd76d8a7a7ef309ed6f833bb = $(`<div id="html_6e49ac73cd76d8a7a7ef309ed6f833bb" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75013<br>             <b>Prix Moyen:</b> 7508 €/m²<br>             <b>Nb Biens:</b> 67.0         </div>`)[0];
+                popup_f9d526f6530bee68e34bccf0236d1df1.setContent(html_6e49ac73cd76d8a7a7ef309ed6f833bb);
+            
+        
+
+        circle_marker_6970c1801bfc9740b5d7ba3ce60e919a.bindPopup(popup_f9d526f6530bee68e34bccf0236d1df1)
+        ;
+
+        
+    
+    
+            var circle_marker_b15d8358424247e93703b33b335a30fe = L.circleMarker(
+                [48.8295667, 2.3239625],
+                {"bubblingMouseEvents": true, "color": "#ae2791", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ae2791", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.788039631123947, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_02b417864245e9fcbcc2c39bb4aecb23 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95d66aea389a6897154fc5969852f2e3 = $(`<div id="html_95d66aea389a6897154fc5969852f2e3" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75014<br>             <b>Prix Moyen:</b> 7664 €/m²<br>             <b>Nb Biens:</b> 70.0         </div>`)[0];
+                popup_02b417864245e9fcbcc2c39bb4aecb23.setContent(html_95d66aea389a6897154fc5969852f2e3);
+            
+        
+
+        circle_marker_b15d8358424247e93703b33b335a30fe.bindPopup(popup_02b417864245e9fcbcc2c39bb4aecb23)
+        ;
+
+        
+    
+    
+            var circle_marker_a99846102e00ea6a2e223b0896ddd700 = L.circleMarker(
+                [48.8414302, 2.2961649],
+                {"bubblingMouseEvents": true, "color": "#ba3487", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ba3487", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.484941211906904, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_8507372f38d92b54d1a77dfe140954fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8cf9303f2e4381baa0fd301d80b8eb91 = $(`<div id="html_8cf9303f2e4381baa0fd301d80b8eb91" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75015<br>             <b>Prix Moyen:</b> 8552 €/m²<br>             <b>Nb Biens:</b> 124.0         </div>`)[0];
+                popup_8507372f38d92b54d1a77dfe140954fd.setContent(html_8cf9303f2e4381baa0fd301d80b8eb91);
+            
+        
+
+        circle_marker_a99846102e00ea6a2e223b0896ddd700.bindPopup(popup_8507372f38d92b54d1a77dfe140954fd)
+        ;
+
+        
+    
+    
+            var circle_marker_46aa4dfae697f2044ee47f874d8f77a1 = L.circleMarker(
+                [48.854928, 2.2553299],
+                {"bubblingMouseEvents": true, "color": "#dc5e66", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc5e66", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.183347464017316, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_feca0267cfac171a4d450574e1cd1dc1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d299d9b09c60603b643a8f333fd351f9 = $(`<div id="html_d299d9b09c60603b643a8f333fd351f9" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75016<br>             <b>Prix Moyen:</b> 11391 €/m²<br>             <b>Nb Biens:</b> 80.0         </div>`)[0];
+                popup_feca0267cfac171a4d450574e1cd1dc1.setContent(html_d299d9b09c60603b643a8f333fd351f9);
+            
+        
+
+        circle_marker_46aa4dfae697f2044ee47f874d8f77a1.bindPopup(popup_feca0267cfac171a4d450574e1cd1dc1)
+        ;
+
+        
+    
+    
+            var circle_marker_fa42058c630afa6055ce1f5816aa2832 = L.circleMarker(
+                [48.8873906, 2.3064833],
+                {"bubblingMouseEvents": true, "color": "#bb3586", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bb3586", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.693044574403508, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_4b49ff2ff78cedd4a9b7bf4a6dbadc06 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4fbb88cae78deb41455595ded7f125b = $(`<div id="html_c4fbb88cae78deb41455595ded7f125b" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75017<br>             <b>Prix Moyen:</b> 8601 €/m²<br>             <b>Nb Biens:</b> 95.0         </div>`)[0];
+                popup_4b49ff2ff78cedd4a9b7bf4a6dbadc06.setContent(html_c4fbb88cae78deb41455595ded7f125b);
+            
+        
+
+        circle_marker_fa42058c630afa6055ce1f5816aa2832.bindPopup(popup_4b49ff2ff78cedd4a9b7bf4a6dbadc06)
+        ;
+
+        
+    
+    
+            var circle_marker_905a808ad9fb1ef1a46cda790e5695c0 = L.circleMarker(
+                [48.8916223, 2.3479768],
+                {"bubblingMouseEvents": true, "color": "#b83289", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b83289", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.693519399852732, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_59dd98364bd8045a92b95477ac8cd98e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d90e372d130a068dd47f22935dd33b24 = $(`<div id="html_d90e372d130a068dd47f22935dd33b24" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75018<br>             <b>Prix Moyen:</b> 8365 €/m²<br>             <b>Nb Biens:</b> 133.0         </div>`)[0];
+                popup_59dd98364bd8045a92b95477ac8cd98e.setContent(html_d90e372d130a068dd47f22935dd33b24);
+            
+        
+
+        circle_marker_905a808ad9fb1ef1a46cda790e5695c0.bindPopup(popup_59dd98364bd8045a92b95477ac8cd98e)
+        ;
+
+        
+    
+    
+            var circle_marker_0113ee038e60e33f16f7dcb8fc80d531 = L.circleMarker(
+                [48.8869876, 2.3830496],
+                {"bubblingMouseEvents": true, "color": "#a21c9a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a21c9a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.499429010990795, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_26cade7d23ca3e58d0987a332203c373 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dde2ca671a44c9705dd854c940556c00 = $(`<div id="html_dde2ca671a44c9705dd854c940556c00" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75019<br>             <b>Prix Moyen:</b> 6937 €/m²<br>             <b>Nb Biens:</b> 89.0         </div>`)[0];
+                popup_26cade7d23ca3e58d0987a332203c373.setContent(html_dde2ca671a44c9705dd854c940556c00);
+            
+        
+
+        circle_marker_0113ee038e60e33f16f7dcb8fc80d531.bindPopup(popup_26cade7d23ca3e58d0987a332203c373)
+        ;
+
+        
+    
+    
+            var circle_marker_11f958133fca667e55ac12dd378865ff = L.circleMarker(
+                [48.8618219, 2.4010758],
+                {"bubblingMouseEvents": true, "color": "#b12b8f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b12b8f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.829998357048165, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_1f811ca0e03e5c345bfe8d484b638cde = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_380d13cb3d8045a23d9b4b6969c7ac2d = $(`<div id="html_380d13cb3d8045a23d9b4b6969c7ac2d" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75020<br>             <b>Prix Moyen:</b> 7905 €/m²<br>             <b>Nb Biens:</b> 71.0         </div>`)[0];
+                popup_1f811ca0e03e5c345bfe8d484b638cde.setContent(html_380d13cb3d8045a23d9b4b6969c7ac2d);
+            
+        
+
+        circle_marker_11f958133fca667e55ac12dd378865ff.bindPopup(popup_1f811ca0e03e5c345bfe8d484b638cde)
+        ;
+
+        
+    
+    
+            var circle_marker_1d1f639b603013b89136c706de47dd86 = L.circleMarker(
+                [48.8690634, 2.279847],
+                {"bubblingMouseEvents": true, "color": "#eff821", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eff821", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_9276e5c38c714fa69fcfe81ae5674df0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d2dc9adcad04feb17b2e8a188929b49a = $(`<div id="html_d2dc9adcad04feb17b2e8a188929b49a" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 75116<br>             <b>Prix Moyen:</b> 19587 €/m²<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_9276e5c38c714fa69fcfe81ae5674df0.setContent(html_d2dc9adcad04feb17b2e8a188929b49a);
+            
+        
+
+        circle_marker_1d1f639b603013b89136c706de47dd86.bindPopup(popup_9276e5c38c714fa69fcfe81ae5674df0)
+        ;
+
+        
+    
+    
+            var circle_marker_aa03794078daa02fb0f15b71dd8e73ee = L.circleMarker(
+                [49.4454004, 1.0938965],
+                {"bubblingMouseEvents": true, "color": "#5101a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5101a2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_d08260e3277be2cedc3437e642e156f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_56be2bd990bc8c02508530853a94dc56 = $(`<div id="html_56be2bd990bc8c02508530853a94dc56" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 76000<br>             <b>Prix Moyen:</b> 2747 €/m²<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_d08260e3277be2cedc3437e642e156f8.setContent(html_56be2bd990bc8c02508530853a94dc56);
+            
+        
+
+        circle_marker_aa03794078daa02fb0f15b71dd8e73ee.bindPopup(popup_d08260e3277be2cedc3437e642e156f8)
+        ;
+
+        
+    
+    
+            var circle_marker_60fe2751d1b9f2bdec86d74f749496e1 = L.circleMarker(
+                [48.523948, 2.6888745],
+                {"bubblingMouseEvents": true, "color": "#5201a3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5201a3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.824927267827912, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_0977f8965bec65ee0f261d2b6bc29f5f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_81deee4a4116ae2e3dab30e13fad8db1 = $(`<div id="html_81deee4a4116ae2e3dab30e13fad8db1" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 77000<br>             <b>Prix Moyen:</b> 2813 €/m²<br>             <b>Nb Biens:</b> 139.0         </div>`)[0];
+                popup_0977f8965bec65ee0f261d2b6bc29f5f.setContent(html_81deee4a4116ae2e3dab30e13fad8db1);
+            
+        
+
+        circle_marker_60fe2751d1b9f2bdec86d74f749496e1.bindPopup(popup_0977f8965bec65ee0f261d2b6bc29f5f)
+        ;
+
+        
+    
+    
+            var circle_marker_7e5ace92f01a0374fc8f58cbf1dcd0a4 = L.circleMarker(
+                [48.8037121, 2.119426],
+                {"bubblingMouseEvents": true, "color": "#99149f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#99149f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.32795376947095, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_292a260a77ec1539b2690c917778ffe1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8fa4a466223e5a5a4bc47a95bfdcc2d4 = $(`<div id="html_8fa4a466223e5a5a4bc47a95bfdcc2d4" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 78000<br>             <b>Prix Moyen:</b> 6413 €/m²<br>             <b>Nb Biens:</b> 84.0         </div>`)[0];
+                popup_292a260a77ec1539b2690c917778ffe1.setContent(html_8fa4a466223e5a5a4bc47a95bfdcc2d4);
+            
+        
+
+        circle_marker_7e5ace92f01a0374fc8f58cbf1dcd0a4.bindPopup(popup_292a260a77ec1539b2690c917778ffe1)
+        ;
+
+        
+    
+    
+            var circle_marker_c01db692c2085baa8999ec210dbdca46 = L.circleMarker(
+                [48.7154856, 2.2290618],
+                {"bubblingMouseEvents": true, "color": "#6a00a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6a00a7", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.381403155135274, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_781dcc245d8cf270d971a8c86891706b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24eea7b5a887b952100d0d00cec90f6a = $(`<div id="html_24eea7b5a887b952100d0d00cec90f6a" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 91120<br>             <b>Prix Moyen:</b> 3925 €/m²<br>             <b>Nb Biens:</b> 61.0         </div>`)[0];
+                popup_781dcc245d8cf270d971a8c86891706b.setContent(html_24eea7b5a887b952100d0d00cec90f6a);
+            
+        
+
+        circle_marker_c01db692c2085baa8999ec210dbdca46.bindPopup(popup_781dcc245d8cf270d971a8c86891706b)
+        ;
+
+        
+    
+    
+            var circle_marker_570cb4114155a51b691be8a7b50e8f82 = L.circleMarker(
+                [48.8927825, 2.2073652],
+                {"bubblingMouseEvents": true, "color": "#7c02a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7c02a7", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.568964226079276, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_68fdad82e94a604dfffe80d1384f345a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f0cb1adba2294aae9b3b4d247cb389be = $(`<div id="html_f0cb1adba2294aae9b3b4d247cb389be" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92000<br>             <b>Prix Moyen:</b> 4857 €/m²<br>             <b>Nb Biens:</b> 65.0         </div>`)[0];
+                popup_68fdad82e94a604dfffe80d1384f345a.setContent(html_f0cb1adba2294aae9b3b4d247cb389be);
+            
+        
+
+        circle_marker_570cb4114155a51b691be8a7b50e8f82.bindPopup(popup_68fdad82e94a604dfffe80d1384f345a)
+        ;
+
+        
+    
+    
+            var circle_marker_e66395313aeb51395386e21de59daef7 = L.circleMarker(
+                [48.837494, 2.2378546],
+                {"bubblingMouseEvents": true, "color": "#ba3487", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ba3487", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.96188105047257, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_cd7b77bd0f77b4be4803dc90bbdd3167 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e4a0213bd159066f2455a657691fd25 = $(`<div id="html_0e4a0213bd159066f2455a657691fd25" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92100<br>             <b>Prix Moyen:</b> 8548 €/m²<br>             <b>Nb Biens:</b> 104.0         </div>`)[0];
+                popup_cd7b77bd0f77b4be4803dc90bbdd3167.setContent(html_0e4a0213bd159066f2455a657691fd25);
+            
+        
+
+        circle_marker_e66395313aeb51395386e21de59daef7.bindPopup(popup_cd7b77bd0f77b4be4803dc90bbdd3167)
+        ;
+
+        
+    
+    
+            var circle_marker_e00f8e5bba925c30547e328bbbb9ca6a = L.circleMarker(
+                [48.8711349, 2.2217833],
+                {"bubblingMouseEvents": true, "color": "#3f039c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3f039c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_966f6ae403c7f4665b6b534dce794abd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_775bc1e6171fc5df54b1f9a8ecf4b8a5 = $(`<div id="html_775bc1e6171fc5df54b1f9a8ecf4b8a5" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92150<br>             <b>Prix Moyen:</b> 1838 €/m²<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_966f6ae403c7f4665b6b534dce794abd.setContent(html_775bc1e6171fc5df54b1f9a8ecf4b8a5);
+            
+        
+
+        circle_marker_e00f8e5bba925c30547e328bbbb9ca6a.bindPopup(popup_966f6ae403c7f4665b6b534dce794abd)
+        ;
+
+        
+    
+    
+            var circle_marker_855777a681e482a0fe2348ae3938912b = L.circleMarker(
+                [48.7908946, 2.2867846],
+                {"bubblingMouseEvents": true, "color": "#7300a8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7300a8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_366e26caf02cda91eb6497fe363770a3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6816e7aaa6f16b14c2197acc7eea94e = $(`<div id="html_c6816e7aaa6f16b14c2197acc7eea94e" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92260<br>             <b>Prix Moyen:</b> 4435 €/m²<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_366e26caf02cda91eb6497fe363770a3.setContent(html_c6816e7aaa6f16b14c2197acc7eea94e);
+            
+        
+
+        circle_marker_855777a681e482a0fe2348ae3938912b.bindPopup(popup_366e26caf02cda91eb6497fe363770a3)
+        ;
+
+        
+    
+    
+            var circle_marker_4123f5984189558b2b89c5725e6b8ba6 = L.circleMarker(
+                [48.8718031, 2.1801931],
+                {"bubblingMouseEvents": true, "color": "#9612a0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9612a0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_a68da8ce94f2271589481eed0cf74639 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b4b13fa6ee19ed788079d775f13e937 = $(`<div id="html_7b4b13fa6ee19ed788079d775f13e937" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 92500<br>             <b>Prix Moyen:</b> 6238 €/m²<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_a68da8ce94f2271589481eed0cf74639.setContent(html_7b4b13fa6ee19ed788079d775f13e937);
+            
+        
+
+        circle_marker_4123f5984189558b2b89c5725e6b8ba6.bindPopup(popup_a68da8ce94f2271589481eed0cf74639)
+        ;
+
+        
+    
+    
+            var circle_marker_e7d276b5aaa500b8238f1e751f2f1efe = L.circleMarker(
+                [48.9334215, 2.3624387],
+                {"bubblingMouseEvents": true, "color": "#6c00a8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6c00a8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.181329031639258, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_a3f3bca6342eac45325f9f3d18b8d160 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d5cd205465db9f8bf58a347ed7645bde = $(`<div id="html_d5cd205465db9f8bf58a347ed7645bde" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 93200<br>             <b>Prix Moyen:</b> 4010 €/m²<br>             <b>Nb Biens:</b> 57.0         </div>`)[0];
+                popup_a3f3bca6342eac45325f9f3d18b8d160.setContent(html_d5cd205465db9f8bf58a347ed7645bde);
+            
+        
+
+        circle_marker_e7d276b5aaa500b8238f1e751f2f1efe.bindPopup(popup_a3f3bca6342eac45325f9f3d18b8d160)
+        ;
+
+        
+    
+    
+            var circle_marker_625b786c87685894964d9829de44f294 = L.circleMarker(
+                [48.7901585, 2.4589],
+                {"bubblingMouseEvents": true, "color": "#6c00a8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6c00a8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.693044574403508, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_48efc54c24911794fd80b3270fa24ada = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7aac25f5c3ecd96d6c85b8579f15990b = $(`<div id="html_7aac25f5c3ecd96d6c85b8579f15990b" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 94000<br>             <b>Prix Moyen:</b> 4010 €/m²<br>             <b>Nb Biens:</b> 95.0         </div>`)[0];
+                popup_48efc54c24911794fd80b3270fa24ada.setContent(html_7aac25f5c3ecd96d6c85b8579f15990b);
+            
+        
+
+        circle_marker_625b786c87685894964d9829de44f294.bindPopup(popup_48efc54c24911794fd80b3270fa24ada)
+        ;
+
+        
+    
+    
+            var circle_marker_13cbd4fb337c8186079ae8696096f508 = L.circleMarker(
+                [48.7695068, 2.4869964],
+                {"bubblingMouseEvents": true, "color": "#5701a4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5701a4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_46be1d1304ff071ac3d53709999c5330 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fd778a5a57b68fd77152e97b32339060 = $(`<div id="html_fd778a5a57b68fd77152e97b32339060" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 94380<br>             <b>Prix Moyen:</b> 3024 €/m²<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_46be1d1304ff071ac3d53709999c5330.setContent(html_fd778a5a57b68fd77152e97b32339060);
+            
+        
+
+        circle_marker_13cbd4fb337c8186079ae8696096f508.bindPopup(popup_46be1d1304ff071ac3d53709999c5330)
+        ;
+
+        
+    
+    
+            var circle_marker_56fc5f3c31a7abf0d047730fa4c65719 = L.circleMarker(
+                [48.7919396, 2.3652584],
+                {"bubblingMouseEvents": true, "color": "#8204a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8204a7", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.675460894331879, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_fffa53e8a3e32d9b1145c0589c7e8744 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_52f4b8da5a1e27e383023d47ccd10d9d = $(`<div id="html_52f4b8da5a1e27e383023d47ccd10d9d" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 94800<br>             <b>Prix Moyen:</b> 5128 €/m²<br>             <b>Nb Biens:</b> 48.0         </div>`)[0];
+                popup_fffa53e8a3e32d9b1145c0589c7e8744.setContent(html_52f4b8da5a1e27e383023d47ccd10d9d);
+            
+        
+
+        circle_marker_56fc5f3c31a7abf0d047730fa4c65719.bindPopup(popup_fffa53e8a3e32d9b1145c0589c7e8744)
+        ;
+
+        
+    
+    
+            var circle_marker_e74f751f25ad285b7190901a091ec657 = L.circleMarker(
+                [48.967982, 2.2853359],
+                {"bubblingMouseEvents": true, "color": "#380499", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#380499", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0794415416798357, "stroke": true, "weight": 3}
+            ).addTo(map_ad2f7fe72cbac7d0e2a7ecf6ffda6f08);
+        
+    
+        var popup_42362bdd405ad721ac61c3e34ab00810 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8377b1554ba3e7294120620a0b55ca78 = $(`<div id="html_8377b1554ba3e7294120620a0b55ca78" style="width: 100.0%; height: 100.0%;">             <b>Code Postal:</b> 95210<br>             <b>Prix Moyen:</b> 1571 €/m²<br>             <b>Nb Biens:</b> 1.0         </div>`)[0];
+                popup_42362bdd405ad721ac61c3e34ab00810.setContent(html_8377b1554ba3e7294120620a0b55ca78);
+            
+        
+
+        circle_marker_e74f751f25ad285b7190901a091ec657.bindPopup(popup_42362bdd405ad721ac61c3e34ab00810)
+        ;
+
+        
+    
+</script>
+</html>

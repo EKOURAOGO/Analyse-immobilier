@@ -3,7 +3,7 @@
 > Étude empirique de l'impact de la performance énergétique (DPE/GES) sur le prix au m²
 > 1 839 annonces IAD France — Scraping · NLP · Modélisation OLS HC3
 
-**Auteurs :** Emmanuel KOURAOGO & Amadou Diallo — M2 IMSD
+**Auteur :** Emmanuel KOURAOGO
 
 ---
 
@@ -127,6 +127,4 @@ python main.py
 | Nom | Profil |
 |-----|--------|
 | Emmanuel KOURAOGO | [GitHub](https://github.com/EKOURAOGO) · [Email](mailto:ekouraogo73@gmail.com) |
-| Amadou Diallo | — |
 
-M2 IMSD — Université Paris-Saclay

@@ -1,4 +1,4 @@
-# Analyse de la Prime verte immobilière en Île-de-France
+# Analyse de la prime verte immobilière en Île-de-France
 
 > Étude empirique de l'impact de la performance énergétique (DPE/GES) sur le prix au m²
 > 1 839 annonces IAD France - Scraping · NLP · Modélisation OLS HC3

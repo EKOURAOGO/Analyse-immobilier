@@ -2,7 +2,7 @@
 
 > Étude de l'impact de la performance énergétique (DPE/GES) sur le prix au m² - 1 839 annonces IAD France
 
-**Projet réalisé par Emmanuel KOURAOGO **
+**Projet réalisé par Emmanuel KOURAOGO**
 
 <p align="center">
   <img src="DEMO/IMAGES/Carte de chaleur des corrélations Spearman.png" width="47%"/>

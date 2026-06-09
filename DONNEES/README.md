@@ -19,9 +19,9 @@
 
 | Hypothèse | Résultat | Détail |
 |-----------|----------|--------|
-| H1 — Prime Verte uniforme | ❌ Rejetée | DPE/GES non significatifs à l'échelle régionale (p > 0.46) |
-| H2 — Effet localisé à Paris | ✅ Validée | Décote GES à Paris : **−739 €/m² par classe** (p = 0.002) |
-| H3 — Prix multifactoriel | ✅ Validée | R² ajusté ≈ 0.59–0.60, ascenseur +1175 €/m², charges β = +0.56 |
+| H1 - Prime verte uniforme | ❌ Rejetée | DPE/GES non significatifs à l'échelle régionale (p > 0.46) |
+| H2 - Effet localisé à Paris | ✅ Validée | Décote GES à Paris : **−739 €/m² par classe** (p = 0.002) |
+| H3 - Prix multifactoriel | ✅ Validée | R² ajusté ≈ 0.59–0.60, ascenseur +1175 €/m², charges β = +0.56 |
 
 ---
 

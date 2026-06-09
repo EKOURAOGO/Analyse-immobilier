@@ -1,8 +1,8 @@
-# Analyse de la Prime Verte immobilière en Île-de-France
+# Analyse de la prime verte immobilière en Île-de-France
 
-> Étude de l'impact de la performance énergétique (DPE/GES) sur le prix au m² — 1 839 annonces IAD France
+> Étude de l'impact de la performance énergétique (DPE/GES) sur le prix au m² - 1 839 annonces IAD France
 
-**Projet réalisé par Emmanuel KOURAOGO & Amadou Diallo — M2 IMSD**
+**Projet réalisé par Emmanuel KOURAOGO **
 
 <p align="center">
   <img src="DEMO/IMAGES/Carte de chaleur des corrélations Spearman.png" width="47%"/>
@@ -144,11 +144,8 @@ Les visualisations sont générées dans `DEMO/IMAGES/`.
 
 ---
 
-## Auteurs
+## Auteur
 
 | Nom | GitHub |
 |-----|--------|
 | Emmanuel KOURAOGO | [@EKOURAOGO](https://github.com/EKOURAOGO) |
-| Amadou Diallo | — |
-
-M2 IMSD — Université Paris-Saclay

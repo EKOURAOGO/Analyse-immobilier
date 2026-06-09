@@ -29,7 +29,7 @@
 
 Ce projet analyse empiriquement si les biens immobiliers bien notés sur le plan énergétique bénéficient d'une **"Prime Verte"** sur le marché francilien.
 
-**Périmètre :** 9 villes d'Île-de-France — Paris, Boulogne-Billancourt, Nanterre, Créteil, Saint-Denis, Villejuif, Palaiseau, Versailles, Melun.
+**Périmètre :** 9 villes d'Île-de-France - Paris, Boulogne-Billancourt, Nanterre, Créteil, Saint-Denis, Villejuif, Palaiseau, Versailles, Melun.
 
 **Conclusion principale :** La Prime Verte n'est pas uniforme. Elle se manifeste uniquement à Paris sous forme d'une **décote GES significative (~700 €/m² par classe)**, tandis qu'en banlieue, ce sont les attributs de standing (ascenseur, charges) et le marketing textuel qui gouvernent le prix.
 

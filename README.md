@@ -122,7 +122,7 @@ python main.py
 
 ---
 
-## Auteurs
+## Auteur
 
 | Nom | Profil |
 |-----|--------|

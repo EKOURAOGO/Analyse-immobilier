@@ -1,7 +1,7 @@
-# Analyse de la Prime Verte immobilière en Île-de-France
+# Analyse de la Prime verte immobilière en Île-de-France
 
 > Étude empirique de l'impact de la performance énergétique (DPE/GES) sur le prix au m²
-> 1 839 annonces IAD France — Scraping · NLP · Modélisation OLS HC3
+> 1 839 annonces IAD France - Scraping · NLP · Modélisation OLS HC3
 
 **Auteur :** Emmanuel KOURAOGO
 
@@ -24,9 +24,9 @@
 
 | Hypothèse | Résultat | Détail |
 |-----------|----------|--------|
-| H1 — Prime Verte uniforme | ❌ Rejetée | DPE/GES non significatifs à l'échelle régionale (p > 0.46) |
-| H2 — Effet localisé à Paris | ✅ Validée | Décote GES à Paris : **−739 €/m² par classe** (p = 0.002) |
-| H3 — Prix multifactoriel | ✅ Validée | R² ajusté ≈ 0.59–0.60 |
+| H1 - Prime verte uniforme | ❌ Rejetée | DPE/GES non significatifs à l'échelle régionale (p > 0.46) |
+| H2 - Effet localisé à Paris | ✅ Validée | Décote GES à Paris : **−739 €/m² par classe** (p = 0.002) |
+| H3 - Prix multifactoriel | ✅ Validée | R² ajusté ≈ 0.59–0.60 |
 
 ### Déterminants majeurs du prix
 
